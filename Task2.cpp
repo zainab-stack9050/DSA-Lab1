@@ -1,0 +1,14 @@
+# include <iostream>
+using namespace std;
+
+int main()
+{int a, *pa;      
+pa = &a;           
+cout<<"pa = &a --> pa = "<<pa<<endl<<endl;
+pa = pa + 1;      //Will execute as its just addition
+cout<<"pa = pa + 1 --> pa = "<<pa<<endl<<endl; 
+//pa = pa *2;       //Giving error
+cout <<"pa = pa * 2 --> pa = "<<pa<<endl<<endl;
+
+return 0 ;	
+}
